@@ -4,12 +4,10 @@
   "description": "A Web Crawler to check the internal routes of a website",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "jest",
+    "start": "node main.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.6.1"
-  }
+  "license": "ISC"
 }
